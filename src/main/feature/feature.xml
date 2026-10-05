@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="org.example.kar-${project.version}">
+	<feature name="a-b-c" description="U-la-la" version="${project.version}">
+		<bundle start-level="80">mvn:kar.test/org.example.kar/${project.version}</bundle>
+	</feature>
+</features>
